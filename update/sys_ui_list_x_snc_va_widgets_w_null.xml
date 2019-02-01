@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_va_widgets_w" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_snc_va_widgets_w" element="NULL" name="x_snc_va_widgets_w" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3687846adb93230074f7f2353a96191d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:57:59</sys_created_on>
+            <sys_id>7287846adb93230074f7f2353a96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:57:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>body_html_template</element>
+            <list_id display_value="x_snc_va_widgets_w" element="NULL" name="x_snc_va_widgets_w" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3687846adb93230074f7f2353a96191d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:57:59</sys_created_on>
+            <sys_id>7a87846adb93230074f7f2353a96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:57:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>css</element>
+            <list_id display_value="x_snc_va_widgets_w" element="NULL" name="x_snc_va_widgets_w" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3687846adb93230074f7f2353a96191d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:57:59</sys_created_on>
+            <sys_id>fa87846adb93230074f7f2353a96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:57:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>id</element>
+            <list_id display_value="x_snc_va_widgets_w" element="NULL" name="x_snc_va_widgets_w" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3687846adb93230074f7f2353a96191d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:57:59</sys_created_on>
+            <sys_id>7e87846adb93230074f7f2353a96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:57:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>script</element>
+            <list_id display_value="x_snc_va_widgets_w" element="NULL" name="x_snc_va_widgets_w" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3687846adb93230074f7f2353a96191d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:57:59</sys_created_on>
+            <sys_id>fe87846adb93230074f7f2353a96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:57:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_va_widgets_w</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:57:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3687846adb93230074f7f2353a96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_va_widgets_w</sys_name>
+            <sys_package display_value="Virtual Agent Widgets" source="x_snc_va_widgets">a2af77d2db93230074f7f2353a961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Virtual Agent Widgets">a2af77d2db93230074f7f2353a961904</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_va_widgets_w_null</sys_update_name>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:57:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

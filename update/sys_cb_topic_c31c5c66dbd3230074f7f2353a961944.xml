@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description/>
+        <graph>{
+  "graph_api_version": "1.0.3",
+  "goals": {
+    "1c2c89c039ab4ae2b3644d1f72a000d4": {
+      "id": "1c2c89c039ab4ae2b3644d1f72a000d4",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "d4087a6b405a4098a0a1de7bb57fbe2f": {
+          "id": "d4087a6b405a4098a0a1de7bb57fbe2f",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5fe106baed3d4cf592c21bc889cc8151": {
+          "id": "5fe106baed3d4cf592c21bc889cc8151",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "78f245f7829747b1b3d5987212d565ff": {
+          "id": "78f245f7829747b1b3d5987212d565ff",
+          "stepType": "ScriptOutput",
+          "name": "Custom widget",
+          "output_type": "single_part",
+          "script": "(function execute() {\n    var vwc = new VAWidgetConstructor();\n    var widget = vwc.constructWidget('test_va_widget', {userResponse: 'James'})\n    \n    var singleOutMsg = new sn_cs.SinglePartOutMsg();\n    singleOutMsg.setHtmlPart(widget);\n\n    return singleOutMsg;\n})()\n",
+          "applicability": ""
+        }
+      },
+      "edges": [
+        {
+          "id": "8aabda8b2e2243b29685b02cd696a51d",
+          "edgeType": "Edge",
+          "source": "d4087a6b405a4098a0a1de7bb57fbe2f",
+          "target": "78f245f7829747b1b3d5987212d565ff",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e1d9822ab1284e5eb2d8ff98db3772a1",
+          "edgeType": "Edge",
+          "source": "78f245f7829747b1b3d5987212d565ff",
+          "target": "5fe106baed3d4cf592c21bc889cc8151",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>VA Widget Test</key_phrases>
+        <live_agent>false</live_agent>
+        <name>VA Widget Test</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>james.tandy@snc</sys_created_by>
+        <sys_created_on>2019-02-01 04:27:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c31c5c66dbd3230074f7f2353a961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>VA Widget Test</sys_name>
+        <sys_package display_value="Virtual Agent Widgets" source="x_snc_va_widgets">a2af77d2db93230074f7f2353a961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Virtual Agent Widgets">a2af77d2db93230074f7f2353a961904</sys_scope>
+        <sys_update_name>sys_cb_topic_c31c5c66dbd3230074f7f2353a961944</sys_update_name>
+        <sys_updated_by>james.tandy@snc</sys_updated_by>
+        <sys_updated_on>2019-02-01 04:41:20</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=c31c5c66dbd3230074f7f2353a961944"/>
+</record_update>

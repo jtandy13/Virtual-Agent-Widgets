@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Widgets" max_length="40" name="x_snc_va_widgets_w" type="collection">
+        <element label="Body HTML Template" max_length="65000" name="body_html_template" type="html_template"/>
+        <element label="CSS" max_length="4000" name="css" type="css"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Name" max_length="75" name="name" type="string"/>
+        <element label="Server script" max_length="8000" name="script" type="script"/>
+    </element>
+</database>

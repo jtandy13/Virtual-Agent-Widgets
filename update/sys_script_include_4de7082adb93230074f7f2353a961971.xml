@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_va_widgets.VAWidgetConstructor</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>VAWidgetConstructor</name>
+        <script><![CDATA[var VAWidgetConstructor = Class.create();
+VAWidgetConstructor.prototype = {
+    initialize: function() {
+    },
+	
+	constructWidget: function(widgetId, inputs) {
+		var widgetGr = new GlideRecord('x_snc_va_widgets_w');
+		widgetGr.get('id', widgetId);
+		
+		// Evaluate the server script of the widget
+		var gse = new GlideScopedEvaluator();
+		gse.putVariable('data', inputs);
+		var data = gse.evaluateScript(widgetGr, 'script', null);
+		
+		var htmlTemplate = widgetGr.getValue('body_html_template');
+		
+		/* 
+		** Iterate over the data object and replace variables in the 
+		** HTML template with their corresponding values 
+		*/
+		for (var property in data) {
+			if (data.hasOwnProperty(property)) {
+				var expression = '\\{{2}\\s*' + 'data\\.' + property + '\\s*\\}{2}';
+				htmlTemplate = htmlTemplate.replace(new RegExp(expression, 'g'), data[property]);
+			}
+		}
+		
+		// Insert the widget's CSS into html template
+		var css = widgetGr.getValue('css');
+		css = '<style>' + css + '</style>';
+		htmlTemplate = css + htmlTemplate;
+		gs.info('HTMLTemplate: ' + htmlTemplate);
+		return htmlTemplate;
+	},
+
+    type: 'VAWidgetConstructor'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>james.tandy@snc</sys_created_by>
+        <sys_created_on>2019-02-01 03:11:06</sys_created_on>
+        <sys_id>4de7082adb93230074f7f2353a961971</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>VAWidgetConstructor</sys_name>
+        <sys_package display_value="Virtual Agent Widgets" source="x_snc_va_widgets">a2af77d2db93230074f7f2353a961904</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Virtual Agent Widgets">a2af77d2db93230074f7f2353a961904</sys_scope>
+        <sys_update_name>sys_script_include_4de7082adb93230074f7f2353a961971</sys_update_name>
+        <sys_updated_by>james.tandy@snc</sys_updated_by>
+        <sys_updated_on>2019-02-01 04:26:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="160444e6db93230074f7f2353a9619b6" sys_domain="global" table="x_snc_va_widgets_w" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:42:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d20444e6db93230074f7f2353a9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_va_widgets_w" name="x_snc_va_widgets_w" sys_domain="global" view="Default view">160444e6db93230074f7f2353a9619b6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_va_widgets_w" sys_domain="global" view="Default view">85d340e6db93230074f7f2353a9619f2</sys_ui_section>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:42:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_va_widgets_w</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:42:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>160444e6db93230074f7f2353a9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_va_widgets_w</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Virtual Agent Widgets" source="x_snc_va_widgets">a2af77d2db93230074f7f2353a961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Virtual Agent Widgets">a2af77d2db93230074f7f2353a961904</sys_scope>
+            <sys_update_name>sys_ui_form_sections_160444e6db93230074f7f2353a9619b6</sys_update_name>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:42:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

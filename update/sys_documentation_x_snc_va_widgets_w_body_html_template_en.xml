@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="body_html_template" label="Body HTML Template" language="en" table="x_snc_va_widgets_w">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>body_html_template</element>
+            <help/>
+            <hint/>
+            <label>Body HTML Template</label>
+            <language>en</language>
+            <name>x_snc_va_widgets_w</name>
+            <plural>Body HTML Templates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james.tandy@snc</sys_created_by>
+            <sys_created_on>2019-02-01 02:40:08</sys_created_on>
+            <sys_id>d9730ca6db93230074f7f2353a961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Body HTML Template</sys_name>
+            <sys_package display_value="Virtual Agent Widgets" source="x_snc_va_widgets">a2af77d2db93230074f7f2353a961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Virtual Agent Widgets">a2af77d2db93230074f7f2353a961904</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_va_widgets_w_body_html_template_en</sys_update_name>
+            <sys_updated_by>james.tandy@snc</sys_updated_by>
+            <sys_updated_on>2019-02-01 02:40:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
